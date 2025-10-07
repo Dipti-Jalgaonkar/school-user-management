@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import bcrypt from "bcryptjs";
 
 export default function Login({ users, onLogin }) {
-
+//created demo hash values for the passwords
 // console.log(bcrypt.hashSync("admin123", 10));
 // console.log(bcrypt.hashSync("john123", 10));
 // console.log(bcrypt.hashSync("jane123", 10));
@@ -33,7 +33,7 @@ export default function Login({ users, onLogin }) {
       return;
     }
 
-    // Compare hashed password
+   
     const isMatch = bcrypt.compareSync(password, found.password);
     if (!isMatch) {
       setError("Invalid email or password");

@@ -4,10 +4,10 @@ export default function Dashboard({ user, users, onLogout }) {
   const [search, setSearch] = useState("");
   const [selectedUser, setSelectedUser] = useState(null);
 
-  // Only students
+
   const students = users.filter((u) => u.userType === "student");
 
-  // Filter by name or subjects
+ 
   const filtered = students.filter(
     (s) =>
       s.name.toLowerCase().includes(search.toLowerCase()) ||
