@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Admin User",
+    "userType": "admin",
+    "email": "admin@school.com",
+    "password": "$2b$10$xgq7sROW.ahB0QVQYb/8duv8H6VZEpjvgfZxDVRMWiNXqETQstJCC",
+    "language": "English",
+    "address": "School HQ",
+    "standard": "-",
+    "subjects": []
+  },
+  {
+    "name": "John Doe",
+    "userType": "student",
+    "email": "john@school.com",
+    "password": "$2b$10$3/FBHEqBachD4djkJDtmKerq5sWB/7eO0gHGvVTE7n8PTibBTENxC",
+    "language": "English",
+    "address": "123 Park Street",
+    "standard": "8th",
+    "subjects": ["Maths", "Science"]
+  },
+  {
+    "name": "Jane Smith",
+    "userType": "student",
+    "email": "jane@school.com",
+    "password": "$2b$10$TI9Vtf5ahFvT58KjVdbmueQNM0WZC5Gv6AVINR7NKps2pkUGVvlxm",
+    "language": "German",
+    "address": "Berlin Street",
+    "standard": "9th",
+    "subjects": ["History", "Science"]
+  },
+  {
+    "name": "Nikhil Rao",
+    "userType": "student",
+    "email": "nikhil@school.com",
+    "password": "$2b$10$STL3YXH6JKDAfJoq/JQL1.5HKbyGzTQ2OMgcusQsGgSkybI/czc5a",
+    "language": "English",
+    "address": "Baner, Pune",
+    "standard": "9th",
+    "subjects": ["Maths", "Science"]
+  },
+  {
+    "name": "Priya Desai",
+    "userType": "admin",
+    "email": "priya@school.com",
+    "password": "$2b$10$XV722khynq0GDpL0n15cluOCgdKuHRI3SVkPCZ1oPtg3PleVZu7Ia",
+    "language": "Hindi",
+    "address": "Andheri, Mumbai",
+    "standard": "-",
+    "subjects": ["English", "Geography"]
+  },
+  {
+    "name": "Liam OConnor",
+    "userType": "student",
+    "email": "liam@school.com",
+    "password": "$2b$10$LWy5zKDXvB.1S63iyzcgjuRmqJMKSY44KEJV8FDCPBS0sgC6AfDry",
+    "language": "English",
+    "address": "Dublin, Ireland",
+    "standard": "7th",
+    "subjects": ["History", "Maths"]
+  }
+]
